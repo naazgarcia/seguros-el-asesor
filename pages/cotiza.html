@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style/style.css">
+    <title>Cotiza</title>
+</head>
+<body>
+    <div class="grid-container">
+    <header>
+        <img src="./../assets/images/seguros-2.jpg" alt="logo">
+        <div>
+            <H1>SEGUROS EL ASESOR</H1>
+        </div>
+        
+
+    </header>
+
+    
+    
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a class="navlink" href="../index.html">Inicio</a></li>
+                <li class="navbar__item"><a class="navlink active" href="./cotiza.html">Cotiza</a></li>
+                <li class="navbar__item"><a class="navlink" href="./nosotros.html">Nosotros</a></li>
+                <li class="navbar__item"><a class="navlink" href="./sedes.html">Sedes</a></li>
+                <li class="navbar__item"><a class="navlink" href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>COTIZACIONES</h2>
+             <form class="formulario" action="" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Pedi tu cotizacion online</legend>
+                <div class="ItemFormulario">
+                <label for="Email">Email, para un mejor asesoramiento:</label>
+                <input type="text" id="Email" name="Email" placeholder="ingrese su e-mail">
+             </div>
+             <div class="ItemFormulario">
+                <label for="bienasegurado">¿Sobre que desea consultar?</label>
+                <select name="bienasegurado" id="bienasegurado">
+<option value="Auto">Auto</option>
+<option value="Moto">Moto</option>
+<option value="Hogar">Hogar</option>
+<option value="Vida">Vida</option>
+<option value="Accidentes personales">Accidentes personales</option>
+<option value="Celular o tablet">Celular o tablet</option>
+                </select>
+             </div>
+             <div class="ItemFormulario">
+                <label for="Telefono">Telefono de contacto</label>
+                <input type="text" id="Telefono" name="Telefono" placeholder="ingrese su numero">
+             </div>
+
+             </fieldset>
+<div>
+    <input type="reset" value="Enviar datos">
+</div>
+            </form>
+        </main>
+        
+    
+        <footer>
+            <p>MATRICULA 25109</p>
+    
+        </footer>
+    </div>
+</body>
+</html>
